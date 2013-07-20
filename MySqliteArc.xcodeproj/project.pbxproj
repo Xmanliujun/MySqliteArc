@@ -16,6 +16,16 @@
 		040917171796424C00DD1721 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 040917161796424C00DD1721 /* Default.png */; };
 		040917191796424C00DD1721 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 040917181796424C00DD1721 /* Default@2x.png */; };
 		0409171B1796424C00DD1721 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0409171A1796424C00DD1721 /* Default-568h@2x.png */; };
+		040917241796426D00DD1721 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917231796426D00DD1721 /* RootViewController.m */; };
+		04091726179645D000DD1721 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04091725179645D000DD1721 /* libsqlite3.dylib */; };
+		0419911E1798D58F006D004E /* mySqlite.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0419911D1798D58F006D004E /* mySqlite.sqlite */; };
+		049A52B0179666B800EDC387 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A52AF179666B800EDC387 /* libsqlite3.0.dylib */; };
+		049A52BA17966AF400EDC387 /* DatabaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A52B317966AF400EDC387 /* DatabaseConfiguration.m */; };
+		049A52BB17966AF400EDC387 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A52B517966AF400EDC387 /* Helper.m */; };
+		049A52BC17966AF400EDC387 /* INUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A52B717966AF400EDC387 /* INUtility.m */; };
+		049A52BD17966AF400EDC387 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A52B917966AF400EDC387 /* Model.m */; };
+		049A52C11796700B00EDC387 /* DataString.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A52C01796700B00EDC387 /* DataString.m */; };
+		049A52C4179670AA00EDC387 /* MySqlite_Ones.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A52C3179670AA00EDC387 /* MySqlite_Ones.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,24 @@
 		040917161796424C00DD1721 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		040917181796424C00DD1721 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0409171A1796424C00DD1721 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		040917221796426D00DD1721 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = controller/RootViewController.h; sourceTree = "<group>"; };
+		040917231796426D00DD1721 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = controller/RootViewController.m; sourceTree = "<group>"; };
+		04091725179645D000DD1721 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0419911D1798D58F006D004E /* mySqlite.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mySqlite.sqlite; sourceTree = "<group>"; };
+		049A52AF179666B800EDC387 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		049A52B217966AF400EDC387 /* DatabaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConfiguration.h; sourceTree = "<group>"; };
+		049A52B317966AF400EDC387 /* DatabaseConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConfiguration.m; sourceTree = "<group>"; };
+		049A52B417966AF400EDC387 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		049A52B517966AF400EDC387 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		049A52B617966AF400EDC387 /* INUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUtility.h; sourceTree = "<group>"; };
+		049A52B717966AF400EDC387 /* INUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INUtility.m; sourceTree = "<group>"; };
+		049A52B817966AF400EDC387 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		049A52B917966AF400EDC387 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		049A52BF1796700B00EDC387 /* DataString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataString.h; sourceTree = "<group>"; };
+		049A52C01796700B00EDC387 /* DataString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataString.m; sourceTree = "<group>"; };
+		049A52C2179670AA00EDC387 /* MySqlite_Ones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlite_Ones.h; sourceTree = "<group>"; };
+		049A52C3179670AA00EDC387 /* MySqlite_Ones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlite_Ones.m; sourceTree = "<group>"; };
+		04FF93781796A3C700791937 /* CONST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049A52B0179666B800EDC387 /* libsqlite3.0.dylib in Frameworks */,
+				04091726179645D000DD1721 /* libsqlite3.dylib in Frameworks */,
 				040917051796424C00DD1721 /* UIKit.framework in Frameworks */,
 				040917071796424C00DD1721 /* Foundation.framework in Frameworks */,
 				040917091796424C00DD1721 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +81,8 @@
 		040916F81796424C00DD1721 = {
 			isa = PBXGroup;
 			children = (
+				049A52AF179666B800EDC387 /* libsqlite3.0.dylib */,
+				04091725179645D000DD1721 /* libsqlite3.dylib */,
 				0409170A1796424C00DD1721 /* MySqliteArc */,
 				040917031796424C00DD1721 /* Frameworks */,
 				040917021796424C00DD1721 /* Products */,
@@ -78,6 +110,8 @@
 		0409170A1796424C00DD1721 /* MySqliteArc */ = {
 			isa = PBXGroup;
 			children = (
+				049A52B11796698600EDC387 /* sqlite3 */,
+				040917211796425300DD1721 /* controller */,
 				040917131796424C00DD1721 /* AppDelegate.h */,
 				040917141796424C00DD1721 /* AppDelegate.m */,
 				0409170B1796424C00DD1721 /* Supporting Files */,
@@ -88,6 +122,7 @@
 		0409170B1796424C00DD1721 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0419911D1798D58F006D004E /* mySqlite.sqlite */,
 				0409170C1796424C00DD1721 /* MySqliteArc-Info.plist */,
 				0409170D1796424C00DD1721 /* InfoPlist.strings */,
 				040917101796424C00DD1721 /* main.m */,
@@ -97,6 +132,35 @@
 				0409171A1796424C00DD1721 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040917211796425300DD1721 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				040917221796426D00DD1721 /* RootViewController.h */,
+				040917231796426D00DD1721 /* RootViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		049A52B11796698600EDC387 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				04FF93781796A3C700791937 /* CONST.h */,
+				049A52B217966AF400EDC387 /* DatabaseConfiguration.h */,
+				049A52B317966AF400EDC387 /* DatabaseConfiguration.m */,
+				049A52B417966AF400EDC387 /* Helper.h */,
+				049A52B517966AF400EDC387 /* Helper.m */,
+				049A52B617966AF400EDC387 /* INUtility.h */,
+				049A52B717966AF400EDC387 /* INUtility.m */,
+				049A52B817966AF400EDC387 /* Model.h */,
+				049A52B917966AF400EDC387 /* Model.m */,
+				049A52BF1796700B00EDC387 /* DataString.h */,
+				049A52C01796700B00EDC387 /* DataString.m */,
+				049A52C2179670AA00EDC387 /* MySqlite_Ones.h */,
+				049A52C3179670AA00EDC387 /* MySqlite_Ones.m */,
+			);
+			name = sqlite3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +218,7 @@
 				040917171796424C00DD1721 /* Default.png in Resources */,
 				040917191796424C00DD1721 /* Default@2x.png in Resources */,
 				0409171B1796424C00DD1721 /* Default-568h@2x.png in Resources */,
+				0419911E1798D58F006D004E /* mySqlite.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +231,13 @@
 			files = (
 				040917111796424C00DD1721 /* main.m in Sources */,
 				040917151796424C00DD1721 /* AppDelegate.m in Sources */,
+				040917241796426D00DD1721 /* RootViewController.m in Sources */,
+				049A52BA17966AF400EDC387 /* DatabaseConfiguration.m in Sources */,
+				049A52BB17966AF400EDC387 /* Helper.m in Sources */,
+				049A52BC17966AF400EDC387 /* INUtility.m in Sources */,
+				049A52BD17966AF400EDC387 /* Model.m in Sources */,
+				049A52C11796700B00EDC387 /* DataString.m in Sources */,
+				049A52C4179670AA00EDC387 /* MySqlite_Ones.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +354,7 @@
 				040917201796424C00DD1721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
